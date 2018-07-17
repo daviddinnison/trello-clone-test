@@ -1,6 +1,7 @@
 import { TEST } from '../actions/main';
 
 const initialState = {
+  boards: [{ value: 'board 1' }],
   test: 'hello this is a test'
 };
 
